@@ -5,6 +5,7 @@ module MongoidIceCubeExtension
 
     class << self
       def demongoize value
+        return unless value
         IceCube::Schedule.from_hash(value)
       end
 
