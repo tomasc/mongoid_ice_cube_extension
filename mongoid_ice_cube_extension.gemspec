@@ -20,10 +20,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency "mongoid", ">= 4.0", "< 6.0"
   spec.add_dependency "ice_cube"
 
-  spec.add_development_dependency "bundler", "~> 1.9"
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "coveralls"
   spec.add_development_dependency "guard"
   spec.add_development_dependency "guard-minitest"
   spec.add_development_dependency "minitest"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake"
 end
