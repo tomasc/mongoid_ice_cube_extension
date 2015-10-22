@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Tomas Celizna"]
   spec.email         = ["tomas.celizna@gmail.com"]
 
-  spec.summary       = %q{A Mongoid field extension that serializes/deserializes IceCube schedule.}
+  spec.summary       = %q{Mongoid field extension that serializes/deserializes IceCube schedule.}
   spec.homepage      = "https://github.com/tomasc/mongoid_ice_cube_extension"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
