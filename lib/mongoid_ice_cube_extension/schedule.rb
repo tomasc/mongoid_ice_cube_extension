@@ -10,7 +10,17 @@ module MongoidIceCubeExtension
       end
 
       def mongoize value
-        value.to_hash
+        case value
+        when IceCube::Schedule then value.to_hash
+        else value
+        end
+      end
+
+      def evolve value
+        case value
+        when IceCube::Schedule then value.to_hash
+        else value
+        end
       end
     end
 
