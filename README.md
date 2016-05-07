@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/tomasc/mongoid_ice_cube_extension.svg)](https://travis-ci.org/tomasc/mongoid_ice_cube_extension) [![Gem Version](https://badge.fury.io/rb/mongoid_ice_cube_extension.svg)](http://badge.fury.io/rb/mongoid_ice_cube_extension) [![Coverage Status](https://img.shields.io/coveralls/tomasc/mongoid_ice_cube_extension.svg)](https://coveralls.io/r/tomasc/mongoid_ice_cube_extension)
 
-A [Mongoid](https://github.com/mongoid/mongoid) field extension that serializes/deserializes [IceCube](https://github.com/seejohnrun/ice_cube/) schedule.
+A [Mongoid](https://github.com/mongoid/mongoid) field extension that serializes/deserializes [IceCube](https://github.com/seejohnrun/ice_cube/) Schedule and Rule objects.
 
 ## Installation
 
