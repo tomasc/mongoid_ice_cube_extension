@@ -31,8 +31,13 @@ field :schedule, type: MongoidIceCubeExtension::Schedule
 and
 
 ```ruby
-field :rule, type: MongoidIceCubeExtension::Rule
+field :schedule, type: MongoidIceCubeExtension::Rule
 ```
+
+## See also
+
+* [MongoidRecurring](https://github.com/tomasc/mongoid_recurring) for recurring DateTime fields for Mongoid models.
+* [SimpleFormRecurringSelect](https://github.com/tomasc/simple_form_recurring_select) for adding `IceCube` rules via `SimpleForm` input fields
 
 ## Development
 
