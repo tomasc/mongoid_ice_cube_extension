@@ -28,6 +28,12 @@ Add to Mongoid models as:
 field :schedule, type: MongoidIceCubeExtension::Schedule
 ```
 
+and
+
+```ruby
+field :rule, type: MongoidIceCubeExtension::Rule
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
