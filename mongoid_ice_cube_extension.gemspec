@@ -17,13 +17,13 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'mongoid', '>= 4.0', '< 9.0'
+  spec.add_dependency 'mongoid', '>= 4.0', '< 10.0'
   spec.add_dependency 'ice_cube'
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'coveralls'
-  spec.add_development_dependency 'guard'
   spec.add_development_dependency 'guard-minitest'
+  spec.add_development_dependency 'guard'
   spec.add_development_dependency 'minitest'
   spec.add_development_dependency 'rake'
 end
